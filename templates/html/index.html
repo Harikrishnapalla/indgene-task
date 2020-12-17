@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indegene Task</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"  type="text/css" href="{% static '/css/home.css' %}">
+</head>
+<body>
+<div class="ct" id="t1">
+  <div class="ct" id="t2">
+    <div class="ct" id="t3">
+      <div class="ct" id="t4">
+         <div class="ct" id="t5">
+          <ul id="menu">
+            <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
+            <a href="#t2"><li class="icon fa fa-keyboard-o" id="dos"></li></a>
+          </ul>
+          <div class="page" id="p1">
+             <section class="icon"><span class="title"><img src="{% static 'images/logo.png' %}" alt="Indegene Task" style="width:130px;border-radius: 50%;">
+             </span><span class="hint"><span style="color: black"><h3><b>Indegene Task:</b></h3></span> Build a rest GET API endpoint using Django that would pull data from the Excel provided in the Technical_assessment_source_data.xlsx  ,transform the data into a JSON response provided in the JSON file assignment_response.json.Feel free make any necessary assumptions and specify them in the Readme.Ignore if any extra key values are there in  assignment_response.json. Try to transform the data like assignment_response.json from excel
+                 Note: If you are using pandas, that would be great..!!!.<br><hr>
+                 <button type="button"><a href="/api" style="color: black">By Using API</a></button> <button type="button"><a href="/pandas" style="color: black">By Using Pandas</a></button></span></section>
+          </div>
+          <div class="page" id="p2">
+            <section class="icon fa fa-keyboard-o"><span class="title">Type</span></section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
