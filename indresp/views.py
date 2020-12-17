@@ -45,7 +45,7 @@ def apidatas(request):
         df1.dropna(inplace=True) # if cell is 0. wont consider
         data_dict = df1.to_dict(orient='records') # coonverting list of dictionary
         l.append(data_dict)
-    return Response({"message": l})
+    return Response({"data": l})
 
 
 
